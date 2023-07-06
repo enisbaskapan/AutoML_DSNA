@@ -1,4 +1,4 @@
-name: Publish DSNA to PyPI / GitHub
+name: Publish ${package_name} to PyPI / GitHub
 
 on:
   push:

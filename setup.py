@@ -1,3 +1,4 @@
 from setuptools import setup
 
-setup()
+setup(
+  long_description="AutoML with DSNA")

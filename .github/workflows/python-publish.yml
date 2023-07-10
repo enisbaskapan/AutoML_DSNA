@@ -33,5 +33,5 @@ jobs:
     - name: Build package
       run: python -m build
     - name: Publish package
-      run: python -m twine upload  dist/* -u ${{ secrets.PYPI_USERNAME }} -p ${{ secrets.PYPI_API_TOKEN }}
+      run: python -m twine upload  dist/* -u 'vestech' -p '#2h2UcvejhgBVgq'
       

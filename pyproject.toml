@@ -1,3 +1,42 @@
 [build-system]
 requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "AutoML_DSNA"
+version = "0.0.1"
+description = "Lovely Spam! Wonderful Spam!"
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = ["egg", "bacon", "sausage", "tomatoes", "Lobster Thermidor"]
+authors = [
+  {name = "Pradyun Gedam", email = "pradyun@example.com"},
+  {name = "Tzu-Ping Chung", email = "tzu-ping@example.com"},
+  {name = "Another person"},
+  {email = "different.person@example.com"},
+]
+maintainers = [
+  {name = "Brett Cannon", email = "brett@python.org"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+dependencies = [
+  "httpx",
+  "gidgethub[httpx]>4.0.0",
+  "django>2.1; os_name != 'nt'",
+  "django>2.0; os_name == 'nt'",
+]
+
+# dynamic = ["version", "description"]
+
+[project.optional-dependencies]
+automl = ["PyQt5"]
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
